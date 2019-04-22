@@ -1,0 +1,22 @@
+{
+  "name": "final-assignment-1530",
+  "version": "1.0.0",
+  "description": "Final project for DMIT 1530",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyRush/final-assignment-1530.git"
+  },
+  "author": "Cody Rush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodyRush/final-assignment-1530/issues"
+  },
+  "homepage": "https://github.com/CodyRush/final-assignment-1530#readme",
+  "dependencies": {
+    "minireset.css": "0.0.4"
+  }
+}

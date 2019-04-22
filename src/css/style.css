@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+.icon-view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3.7rem 2rem;
+}
+
+.list-view {
+  display: none;
+  padding: 0 2rem;
+}
+
+@media (min-width: 760px) {
+  .icon-view {
+    display: none;
+  }
+  .list-view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3.7rem 0;
+  }
+  .menu li {
+    padding-right: 1.3rem;
+    font-size: 1.1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #989898;
+}
+
+header {
+  text-align: center;
+  padding: 7.75rem 0;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+header .large-dot {
+  font-size: 2.7rem;
+}
+
+header .divider {
+  width: 3rem;
+  margin: 0 auto 1.4rem;
+  border: 1px solid black;
+}
+
+header {
+  background: #ffe1bd;
+}
+
+.ctr-pg-container {
+  margin: 0 auto;
+  max-width: 71.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
