@@ -1,0 +1,22 @@
+.divider {
+    width: 3rem;
+    margin: 0 auto 1.4rem;
+    border: 1px solid black;
+}
+
+.btn-dark {
+    background: black;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.3rem;
+}
+
+.btn-light {
+    border: 1px solid #d8d8d8;
+    font-size: 1rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    background: white;
+}

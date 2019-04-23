@@ -1,0 +1,95 @@
+.section-title {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.9rem;
+    color: #444;
+}
+
+.services-container {
+    text-align: center;
+    margin-top: 3rem; 
+
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        margin: 1.5rem;
+    }
+
+    .bold-text {
+        font-size: 1.9rem;
+    }
+
+    p {
+        color: #8e8e8e;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .btn-light {
+        margin: 1rem 0;
+    }
+}
+
+.employee-cards {
+    background: #ffe1bd;
+    padding: 2rem 0;
+}
+
+.card {
+    text-align: center;
+    margin: 2rem 0;
+
+    h3 {
+        font-size: 1.7rem;
+        padding: 1rem;
+    }
+
+    p {
+        margin-top: -0.5rem;
+        font-size: 1rem;
+    }
+}
+
+//Testimonials
+
+.testimonial {
+    text-align: center;
+}
+
+.test-title {
+    h3 {
+        padding: 1rem 0 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .divider {
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
+
+.test-text {
+    p {
+        text-align: left;
+        padding: 1.5rem;
+        line-height: 1.4;
+        color: #8e8e8e;
+    }
+}
+
+.test-gallery {
+    margin-bottom: 1.5rem;
+    img {
+        padding: 1rem;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
