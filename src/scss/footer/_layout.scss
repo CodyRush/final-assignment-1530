@@ -54,3 +54,27 @@
 }
 
 //FORM
+
+label {
+    color: #7a7a7a;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    border: none;
+    border-bottom: 1px solid #7a7a7a;
+    width: 100%;
+    background: black;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 1.2;
+    resize: none;
+}
+
+form {
+    .btn-light {
+        display: block;
+        margin: 1rem auto;
+    }
+}

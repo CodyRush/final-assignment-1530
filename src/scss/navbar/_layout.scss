@@ -1,7 +1,13 @@
 .icon-view {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 3.7rem 2rem;
+
+    .icon {
+        width: 2rem;
+        height: 2rem;
+    }
 }
 
 .list-view {

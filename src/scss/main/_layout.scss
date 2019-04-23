@@ -1,5 +1,6 @@
 .section-title {
-    margin-top: 3rem;
+    margin: 3rem 0;
+    font-weight: 200;
     text-align: center;
     font-size: 1.9rem;
     color: #444;
@@ -33,6 +34,29 @@
     }
 }
 
+//IMG GRID SECTION
+.portfolio {
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+}
+.img-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    img {
+        margin: 1rem;
+    }
+}
+
+//EMPLOYEE SECTION
+
 .employee-cards {
     background: #ffe1bd;
     padding: 2rem 0;
@@ -57,6 +81,7 @@
 
 .testimonial {
     text-align: center;
+    margin: 1.5rem 0
 }
 
 .test-title {
@@ -92,4 +117,76 @@
         margin: 0 auto;
     }
 }
+
+//ABOTU PAGE
+
+.side-bullet {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 1.5rem;
+
+    img {
+        display: block;
+        margin: 0 auto 1.5rem;
+    }
+
+    p {
+        padding: 1rem 0;
+        line-height: 1.4;
+    }
+
+    .btn-light {
+        display: block;
+        margin: 1.5rem auto;
+    }
+}
+
+.about-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-container {
+    text-align: center;
+    width: calc(100% / 3);
+
+    h3 {
+        padding: 1rem 0;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+.insta-section {
+    margin-bottom: 1.5rem;
+
+    button {
+        display: block;
+        margin: 2rem auto;
+        padding: 1rem 3rem;
+    }
+}
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        padding: 1rem;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
+
 

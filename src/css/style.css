@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
 .icon-view {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,7 +6,15 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 3.7rem 2rem;
+}
+
+.icon-view .icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 .list-view {
@@ -50,6 +58,10 @@
 a {
   text-decoration: none;
   color: #989898;
+}
+
+.selected {
+  border-bottom: 1px solid black;
 }
 
 header {
@@ -156,7 +168,8 @@ li {
 }
 
 .section-title {
-  margin-top: 3rem;
+  margin: 3rem 0;
+  font-weight: 200;
   text-align: center;
   font-size: 1.9rem;
   color: #444;
@@ -190,6 +203,34 @@ li {
   margin: 1rem 0;
 }
 
+.portfolio {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.portfolio h2 {
+  margin-bottom: 3rem;
+}
+
+.img-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.img-grid img {
+  margin: 1rem;
+}
+
 .employee-cards {
   background: #ffe1bd;
   padding: 2rem 0;
@@ -212,6 +253,7 @@ li {
 
 .testimonial {
   text-align: center;
+  margin: 1.5rem 0;
 }
 
 .test-title h3 {
@@ -242,6 +284,84 @@ li {
 .test-gallery img {
   padding: 1rem;
   display: block;
+  margin: 0 auto;
+}
+
+.side-bullet {
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.about {
+  padding: 1.5rem;
+}
+
+.about img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.about p {
+  padding: 1rem 0;
+  line-height: 1.4;
+}
+
+.about .btn-light {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.about-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-container {
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.stat-container h3 {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.stat-container p {
+  font-size: 0.8rem;
+}
+
+.insta-section {
+  margin-bottom: 1.5rem;
+}
+
+.insta-section button {
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 3rem;
+}
+
+.instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.instagram img {
+  padding: 1rem;
+  display: inline-block;
   margin: 0 auto;
 }
 
@@ -302,5 +422,27 @@ li {
   font-weight: bold;
   font-size: 1.1rem;
   color: black;
+}
+
+label {
+  color: #7a7a7a;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  border: none;
+  border-bottom: 1px solid #7a7a7a;
+  width: 100%;
+  background: black;
+  margin-bottom: 1rem;
+  color: white;
+  line-height: 1.2;
+  resize: none;
+}
+
+form .btn-light {
+  display: block;
+  margin: 1rem auto;
 }
 /*# sourceMappingURL=style.css.map */
