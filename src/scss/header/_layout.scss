@@ -43,3 +43,27 @@ header {
         border: 1px solid black;
     }
 }
+
+.dots-alt {
+    width: 6.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(min-width: 760px) {
+    header {
+        display: flex;
+        
+        .head-content {
+            margin: 0 auto;
+        }
+    }
+
+    .dots {
+        margin: 3rem 1rem 1rem;
+        flex-direction: column;
+        align-items: center;
+        height: 6.25rem;
+    }
+}

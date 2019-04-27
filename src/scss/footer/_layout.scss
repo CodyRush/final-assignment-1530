@@ -53,6 +53,26 @@
     }
 }
 
+@media(min-width:760px) {
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+        
+
+        .contact-form {
+            width: 45%;
+        }
+
+        .contact-text {
+            width: 45%;
+
+            .contact {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
 //FORM
 
 label {
